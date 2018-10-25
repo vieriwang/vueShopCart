@@ -99,7 +99,7 @@
                       </div>
                     </div>
                     <div class="cart-tab-4">
-                      <div class="item-price-total">{{item.price*item.count}}</div>
+                      <div class="item-price-total">{{item.price*item.count | showUnit}}</div>
                     </div>
                     <div class="cart-tab-5">
                       <div class="cart-item-operation">
@@ -135,7 +135,7 @@
                   Item total: <span class="total-price">{{totalMoney | showTotalUnit("元")}}</span>
                 </div>
                 <div class="next-btn-wrap">
-                  <a href="javascrit:;" class="btn btn--red" style="width: 200px">结账</a>
+                  <a href="address.html" class="btn btn--red" style="width: 200px">结账</a>
                 </div>
               </div>
             </div>
